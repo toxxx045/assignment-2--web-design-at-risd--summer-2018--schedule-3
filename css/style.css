@@ -2,7 +2,12 @@
    background-color:#DDFFFF;
 }
 h1{
-   font-family: 'Special Elite', serif;
+   font-family: 'Special Elite', cursive;
    font-size: 72px;
+   text-align: center;
+}
+h2{
+   font-family: 'Special Elite', cursive;
+   font-size: 24px;
    text-align: center;
 }
