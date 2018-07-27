@@ -14,18 +14,19 @@ h2{
 p{
    font-family: 'Cormorant Garamond', serif;
    font-size: 14px;
-   line-height: 1.5;
+   line-height: 1;
 }
 h3{
    font-family: 'Poiret one', cursive;
    font-size: 18px;
    line-height: 2;
 }
-ol{
+li{
    font-family: 'Cormorant Garamond', serif;
    font-size: 14px;
    line-height: 1.5;
 }
+
 cite{
    font-family: 'Cormorant Garamond', serif;
    font-size: 14px;
