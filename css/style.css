@@ -2,20 +2,28 @@
    background-color:#DDFFFF;
 }
 h1{
-   font-family: 'Special Elite', cursive;
-   font-size: 72px;
+   font-family: 'Poiret One', cursive;
+   font-size: 60px;
    text-align: center;
 }
 h2{
-   font-family: 'Special Elite', cursive;
+   font-family: 'Cinzel', cursive;
    font-size: 24px;
    text-align: center;
 }
-blockquote{
-   font-style: 'Cormorant Garamond', sans-serif;
-   font-size: 12px;
+p{
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 14px;
 }
 h3{
-   font-family: 'Special Elite', cursive;
+   font-family: 'Cinzel', cursive;
    font-size: 20px;
+}
+ol{
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 14px;
+}
+cite{
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 14px;
 }
