@@ -8,20 +8,23 @@ h1{
 }
 h2{
    font-family: 'Poiret One', cursive;
-   font-size: 24px;
+   font-size: 20px;
    text-align: center;
 }
 p{
    font-family: 'Cormorant Garamond', serif;
    font-size: 14px;
+   line-height: 1.5;
 }
 h3{
    font-family: 'Poiret one', cursive;
-   font-size: 20px;
+   font-size: 18px;
+   line-height: 2;
 }
 ol{
    font-family: 'Cormorant Garamond', serif;
    font-size: 14px;
+   line-height: 1.5;
 }
 cite{
    font-family: 'Cormorant Garamond', serif;
