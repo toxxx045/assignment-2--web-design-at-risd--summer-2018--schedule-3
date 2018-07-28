@@ -1,5 +1,6 @@
 *{
    background-color:#DDFFFF;
+   height: 2000px;
 }
 h1{
    font-family: 'Poiret One', cursive;
@@ -24,7 +25,7 @@ h3{
 li{
    font-family: 'Cormorant Garamond', serif;
    font-size: 14px;
-   line-height: 1.5;
+   line-height: 3;
 }
 
 cite{
