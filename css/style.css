@@ -1,5 +1,6 @@
 body{
    background: linear-gradient(#DDFFFF, #111155);
+   margin: 20px;
 }
 #album-header{
    background: url(img/Winter-forest.jpg);
@@ -24,6 +25,9 @@ h3{
    font-size: 18px;
    line-height: 2;
 }
+#review-header{
+   text-align: center;
+}
 li{
    font-family: 'Josefin Slab', serif;
    font-size: 14px;
@@ -43,4 +47,11 @@ ol{
 .songs-bold{
    font-family: 'Josefin Slab';
    font-weight: 700;
+}
+#review-cluster{
+   display: flex;
+}
+.review-container{
+   flex-basis: 50%;
+   margin: 20px;
 }
