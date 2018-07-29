@@ -1,18 +1,21 @@
-*{
-   background-color:#DDFFFF;
+body{
+   background: linear-gradient(#DDFFFF, #111155);
+}
+#album-header{
+   background: url(img/Winter-forest.jpg);
 }
 h1{
    font-family: 'Poiret One', cursive;
    font-size: 60px;
    text-align: left;
 }
-h2{
+#composer-name{
    font-family: 'Poiret One', cursive;
    font-size: 20px;
    text-align: left;
 }
 p{
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Josefin Slab', serif;
    font-size: 14px;
    line-height: 1;
 }
@@ -22,12 +25,22 @@ h3{
    line-height: 2;
 }
 li{
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Josefin Slab', serif;
    font-size: 14px;
    line-height: 3;
+   font-weight: 400;
 }
 
 cite{
-   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Josefin Slab', serif;
    font-size: 14px;
+}
+ol{
+   margin-left: 20px;
+   list-style: decimal;
+   font-weight: 700;
+}
+.songs-bold{
+   font-family: 'Josefin Slab';
+   font-weight: 700;
 }
