@@ -50,6 +50,9 @@ ol{
 }
 #review-cluster{
    display: flex;
+   border-style: solid;
+   border-color: black;
+   border-radius: 2px;
 }
 .review-container{
    flex-basis: 50%;
