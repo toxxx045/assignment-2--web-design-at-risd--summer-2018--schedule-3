@@ -5,7 +5,6 @@ body{
 #album-header{
    background-image: url(img/Winter-forest.jpg);
    position: static;
-
 }
 h1{
    font-family: 'Poiret One', cursive;
@@ -60,4 +59,7 @@ ol{
 }
 .Arvo-quote{
    text-align: left;
+}
+#piano-image{
+   image-orientation: 40deg;
 }
