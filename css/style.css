@@ -1,11 +1,13 @@
 body{
    background: linear-gradient(#DDFFFF, #999999);
-   margin-left: 50px;
-   margin-right: 50px;
+   margin:auto;
+   width: 1024px;
 }
 #album-header{
    background-image: url(img/Winter-forest.jpg);
-   position: static;
+   position: absolute;
+   top: 50px;
+
 }
 h1{
    font-family: 'Poiret One', cursive;
