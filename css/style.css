@@ -3,7 +3,9 @@ body{
    margin: 20px;
 }
 #album-header{
-   background: url(img/Winter-forest.jpg);
+   background-image: url(img/Winter-forest.jpg);
+   position: static;
+
 }
 h1{
    font-family: 'Poiret One', cursive;
