@@ -1,6 +1,7 @@
 body{
    background: linear-gradient(#DDFFFF, #999999);
-   margin: 20px;
+   margin-left: 50px;
+   margin-right: 50px;
 }
 #album-header{
    background-image: url(img/Winter-forest.jpg);
@@ -27,7 +28,10 @@ h3{
    line-height: 2;
 }
 #review-header{
+   margin: 30px;
    text-align: center;
+   border: 1px black solid;
+
 }
 li{
    font-family: 'Josefin Slab', serif;
@@ -55,11 +59,11 @@ ol{
 }
 .review-container{
    flex-basis: 50%;
-   margin: 20px;
+   margin: 10px;
 }
 .Arvo-quote{
    text-align: left;
 }
 #piano-image{
-   image-orientation: 40deg;
+
 }
