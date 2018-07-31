@@ -1,32 +1,37 @@
+
 body{
    background: linear-gradient(#DDFFFF, #999999);
    margin:auto;
-   width: 1024px;
+   width: 100%;
 }
-#album-header{
-   background-image: url(img/Winter-forest.jpg);
-   position: absolute;
-   top: 50px;
-
+.hero{
+   background: url("../img/Winter-forest.jpg")scroll 0 0/cover;
+}
+.hero-container img{
+   margin-bottom: 100px
+}
+.hero-container{
+   margin-left: 550px;
 }
 h1{
    font-family: 'Poiret One', cursive;
-   font-size: 60px;
+   font-size:72px;
    text-align: left;
 }
 #composer-name{
    font-family: 'Poiret One', cursive;
-   font-size: 20px;
+   font-size:20px;
    text-align: left;
 }
 p{
    font-family: 'Josefin Slab', serif;
-   font-size: 14px;
+   font-size: 20px;
    line-height: 1;
 }
+
 h3{
    font-family: 'Poiret one', cursive;
-   font-size: 18px;
+   font-size: 35px;
    line-height: 2;
 }
 #review-header{
@@ -37,18 +42,17 @@ h3{
 }
 li{
    font-family: 'Josefin Slab', serif;
-   font-size: 14px;
-   line-height: 3;
+   line-height: 2;
    font-weight: 400;
 }
 
 cite{
    font-family: 'Josefin Slab', serif;
-   font-size: 14px;
+   font-size: 20px;
    padding: 20px;
 }
 ol{
-   margin-left: 20px;
+   margin-left: 50px;
    list-style: decimal;
    font-weight: 700;
 }
@@ -61,11 +65,14 @@ ol{
 }
 .review-container{
    flex-basis: 50%;
-   margin: 10px;
+   margin: 40px;
 }
-.Arvo-quote{
+#Arvo-quote{
    text-align: left;
+   margin-top: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
 }
-#piano-image{
-
+#Song-list{
+   font-size: 24px;
 }
