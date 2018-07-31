@@ -24,7 +24,7 @@ h1{
    text-align: left;
 }
 p{
-   font-family: 'Josefin Slab', serif;
+   font-family: 'Josefin Sans', serif;
    font-size: 20px;
    line-height: 1;
 }
@@ -33,39 +33,44 @@ h3{
    font-family: 'Poiret one', cursive;
    font-size: 35px;
    line-height: 2;
+   margin-left: 40px;
+}
+
+li{
+   font-family: 'Josefin Sans', serif;
+   line-height: 2;
+   font-weight: 300;
+   font-size: 20px;
+}
+
+cite{
+   font-family: 'Josefin Sans', serif;
+   font-size: 20px;
+   padding: 20px;
+   margin-left: 30px;
+}
+ol{
+   margin-left: 40px;
+   list-style: decimal;
+   font-weight: 600;
+}
+.songs-bold{
+   font-family: 'Josefin Sans';
+   font-weight: 600;
+}
+#review-cluster{
+   display: flex;
 }
 #review-header{
    margin: 30px;
    text-align: center;
    border: 1px black solid;
-
-}
-li{
-   font-family: 'Josefin Slab', serif;
-   line-height: 2;
-   font-weight: 400;
-}
-
-cite{
-   font-family: 'Josefin Slab', serif;
-   font-size: 20px;
-   padding: 20px;
-}
-ol{
-   margin-left: 50px;
-   list-style: decimal;
-   font-weight: 700;
-}
-.songs-bold{
-   font-family: 'Josefin Slab';
-   font-weight: 700;
-}
-#review-cluster{
-   display: flex;
 }
 .review-container{
    flex-basis: 50%;
-   margin: 40px;
+   margin-right: 40px;
+   margin-left: 40px;
+   line-height: 3;
 }
 #Arvo-quote{
    text-align: left;
@@ -75,4 +80,5 @@ ol{
 }
 #Song-list{
    font-size: 24px;
+   margin-bottom: 30px;
 }
